@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Techies Store | Cart</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="container nav-content">
+
+            <a href="index.html" class="logo">
+                Techies Store
+            </a>
+
+            <nav>
+
+                <a href="index.html">
+                    Products
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                    <span id="cart-count">0</span>
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- CART -->
+
+    <main class="container cart-section">
+
+        <div class="section-header">
+
+            <h1>Your Shopping Cart</h1>
+
+            <button
+                id="clear-cart"
+                class="clear-cart">
+                Clear Cart
+            </button>
+
+        </div>
+
+
+        <div id="cart-container">
+
+            <!-- Cart items will appear here -->
+
+        </div>
+
+
+        <!-- CART SUMMARY -->
+
+        <div
+            id="cart-summary"
+            class="cart-summary">
+
+            <h2>Order Summary</h2>
+
+            <div class="summary-row">
+
+                <span>Subtotal</span>
+
+                <strong id="cart-subtotal">
+                    ₦0
+                </strong>
+
+            </div>
+
+
+            <div class="summary-row">
+
+                <span>Delivery</span>
+
+                <strong>
+                    Free
+                </strong>
+
+            </div>
+
+
+            <hr>
+
+
+            <div class="summary-total">
+
+                <span>Total</span>
+
+                <strong id="cart-total">
+                    ₦0
+                </strong>
+
+            </div>
+
+
+            <a
+                href="checkout.html"
+                id="checkout-button"
+                class="checkout-button">
+
+                Proceed to Checkout
+
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <script src="./js/cart.js"></script>
+
+</body>
+
+</html>
