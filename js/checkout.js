@@ -339,7 +339,7 @@ function makePayment(
         customizations: {
 
             title:
-                "Techies Store",
+                "Vexa Store",
 
             description:
                 "Payment for products",
