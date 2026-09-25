@@ -180,7 +180,7 @@ function updateCartCount() {
 function generateTransactionReference() {
 
     return (
-        "TECHIES-" +
+        "VEXA-" +
         Date.now() +
         "-" +
         Math.random()
